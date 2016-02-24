@@ -1,0 +1,5 @@
+/Users/ralphblanes/Projects/LearningCsharp/LearningCsharp/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/ralphblanes/Projects/LearningCsharp/LearningCsharp/bin/Debug/LearningCsharp.exe.mdb
+/Users/ralphblanes/Projects/LearningCsharp/LearningCsharp/bin/Debug/LearningCsharp.exe
+/Users/ralphblanes/Projects/LearningCsharp/LearningCsharp/obj/x86/Debug/LearningCsharp.exe
+/Users/ralphblanes/Projects/LearningCsharp/LearningCsharp/obj/x86/Debug/LearningCsharp.exe.mdb

@@ -1,0 +1,1 @@
+/Users/ralphblanes/Projects/LearningCsharp/LearningCsharp/obj/x86/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
