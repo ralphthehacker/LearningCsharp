@@ -6,6 +6,7 @@ namespace LearningCsharp
 	{
 		public static void Main (string[] args)
 		{
+			// Initialize the variables
 			string firstName="";
 			string lastName = "";
 			string birthDate = ""; 
@@ -19,7 +20,7 @@ namespace LearningCsharp
 			string user_input = "";
 			for(int i = 1; i < 10; i++ ){
 
-				// Used to determine which question to ask
+				// Prompt the user for information and collect info
 				switch(i) {
 
 				case 1:
@@ -94,7 +95,7 @@ namespace LearningCsharp
 			long zip = Convert.ToInt64 (zipCode);
 
 
-			// Now, Print the user info
+			// Now, print the information that the user provided
 			Console.WriteLine("");
 			Console.WriteLine (firstName);
 			Console.WriteLine (lastName);
