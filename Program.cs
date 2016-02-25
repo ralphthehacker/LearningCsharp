@@ -4,8 +4,11 @@ namespace LearningCsharp
 {
 	class MainClass
 	{
-		public static void Main (string[] args)
+		
+
+		public static void main (string[] args)
 		{
+			#region declaringVars
 			// Initialize the variables
 			string firstName="";
 			string lastName = "";
@@ -18,6 +21,8 @@ namespace LearningCsharp
 			string countryName = "";
 			string promptMessage = "";
 			string user_input = "";
+			#endregion 
+
 			for(int i = 1; i < 10; i++ ){
 
 				// Prompt the user for information and collect info
