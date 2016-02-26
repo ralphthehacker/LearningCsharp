@@ -6,8 +6,23 @@ namespace LearningCsharp
 	{
 		
 
-		public static void main (string[] args)
+		public static void Main (string[] args)
 		{
+
+			// Get the student's details and print them
+			getStudentDetails();
+
+
+			// Throw an Exception
+			createStudent();
+
+
+			
+
+		}
+
+		public static void getStudentDetails(){
+
 			#region declaringVars
 			// Initialize the variables
 			string firstName="";
@@ -68,7 +83,7 @@ namespace LearningCsharp
 					user_input = Console.ReadLine();
 					cityName = Convert.ToString(user_input);
 					break;
-				
+
 				case 7:
 					promptMessage = "What is your State/Province?";
 					Console.WriteLine (promptMessage);
@@ -99,19 +114,33 @@ namespace LearningCsharp
 			DateTime birth = Convert.ToDateTime(birthDate);
 			long zip = Convert.ToInt64 (zipCode);
 
+			//And print a Student's information
+			printStudentDetails(firstName,lastName, birth.ToShortDateString());
+
 
 			// Now, print the information that the user provided
-			Console.WriteLine("");
-			Console.WriteLine (firstName);
-			Console.WriteLine (lastName);
-			Console.WriteLine (birth);
-			Console.WriteLine (address1);
-			Console.WriteLine (address2);
-			Console.WriteLine (cityName);
-			Console.WriteLine (stateName);
-			Console.WriteLine (zip);
-			Console.WriteLine(countryName);
+//			Console.WriteLine("");
+//			Console.WriteLine (firstName);
+//			Console.WriteLine (lastName);
+//			Console.WriteLine (birth);
+//			Console.WriteLine (address1);
+//			Console.WriteLine (address2);
+//			Console.WriteLine (cityName);
+//			Console.WriteLine (stateName);
+//			Console.WriteLine (zip);
+//			Console.WriteLine(countryName);
 
+		}
+
+		public static void printStudentDetails(string first,string last, string birthday) {
+			Console.WriteLine ("{0} {1} was born on: {2}", first, last, birthday);
+			
+
+
+		}
+
+		public static void createStudent() {
+1			throw new NotImplementedException();
 
 		}
 	}

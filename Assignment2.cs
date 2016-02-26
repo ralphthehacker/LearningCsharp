@@ -6,7 +6,7 @@ namespace Assignment2
 	{
 
 
-		public static void Main (String[] x)
+		public static void main (String[] x)
 		{
 			// Prompt the user for the board size
 			Console.WriteLine ("Welcome to chessboard! What board size would you like? (Size 2 or bigger)");
