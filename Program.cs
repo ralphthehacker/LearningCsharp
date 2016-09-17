@@ -6,7 +6,7 @@ namespace LearningCsharp
 	{
 		
 
-		public static void Main (string[] args)
+		public static void main (string[] args)
 		{
 
 			// Get the student's details and print them
@@ -140,7 +140,7 @@ namespace LearningCsharp
 		}
 
 		public static void createStudent() {
-1			throw new NotImplementedException();
+			throw new NotImplementedException();
 
 		}
 	}
